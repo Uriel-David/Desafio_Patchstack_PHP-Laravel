@@ -23,3 +23,6 @@ Route::get('/show', [VulnerabilitiesController::class, 'index']);
 Route::get('/show/{vulnerabilityId}', [VulnerabilitiesController::class, 'show']);
 Route::get('/show/{vulnerabilityId}/edit', [VulnerabilitiesController::class, 'edit']);
 Route::get('/create', [VulnerabilitiesController::class, 'create']);
+Route::post('/create', [VulnerabilitiesController::class, 'store']);
+Route::delete('/show/{vulnerabilityId}', [VulnerabilitiesController::class, 'destroy']);
+Route::put('/show/{vulnerabilityId}/edit', [VulnerabilitiesController::class, 'update']);
