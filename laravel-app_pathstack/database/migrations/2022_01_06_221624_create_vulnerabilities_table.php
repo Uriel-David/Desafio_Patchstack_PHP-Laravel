@@ -17,7 +17,7 @@ class CreateVulnerabilitiesTable extends Migration
             $table->id();
             $table->string('title');
             $table->longText('description');
-            $table->string('ranking')->default('unranked');
+            $table->string('ranking')->nullable();
             $table->integer('year');
             $table->timestamps();
         });

@@ -27,7 +27,7 @@ class VulnerabilitiesRequest extends FormRequest
             'title' => 'required',
             'description' => 'required',
             'ranking' => 'nullable',
-            'year' => 'required',
+            'year' => 'required|numeric|min:3|max:4',
         ];
     }
 }

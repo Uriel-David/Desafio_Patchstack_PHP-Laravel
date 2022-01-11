@@ -5,6 +5,7 @@
     1º - git clone https://github.com/Uriel-David/Desafio_Patchstack_PHP-Laravel.git
     2º - composer install
     3º - npm install
+    4º - php artisan migrate
 
 ## About the project
 

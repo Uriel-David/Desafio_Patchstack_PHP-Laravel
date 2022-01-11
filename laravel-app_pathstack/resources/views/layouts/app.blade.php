@@ -51,6 +51,8 @@
             </div>
         </nav>
         <div class="container">
+            <br>
+            @include('includes.message')
             <main class="py-4">
                 @yield('content')
             </main>
